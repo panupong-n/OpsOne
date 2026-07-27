@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets & backups
+.env
+*.bak
+*.tsbuildinfo
+
+# PM2 runtime config — holds real DB/SMTP secrets, keep local only.
+# Use deploy/ecosystem.config.example.cjs as the committed template.
+ecosystem.config.cjs
+
+# Local import/reference data artifacts (CSV/XLSX/PDF) — not needed in the repo
+data/
+
+# User-uploaded runtime files
+public/uploads/
+
+# Local editor / Claude settings
+.claude/
